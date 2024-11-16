@@ -30,6 +30,7 @@ public class loginTest {
             driver.quit();
         }
     }
+
     public void login() {
         setup();
         driver.get("https://login.purina.com/login?redirect_uri=https%3A%2F%2Fwww.petfinder.com%2Fsso-signin%2F&response_type=code&client_id=6gmsl23kdd0607g6qdbgknqsd1&identity_provider=COGNITO&scope=phone%20email%20profile%20openid%20https%3A%2F%2Fapi.services.purina.com%2Fesp%3Aapi%3A%3Aaccess%20aws.cognito.signin.user.admin&state=8jUvPnNojNigimJiLpepH7gtG5hePoGy-7b227072657648726566223a2268747470733a2f2f7777772e70657466696e6465722e636f6d2f227d&code_challenge=bWkJa9lWW0HNNai19Q0FbfjhkUhNUWB0nhRTdYK9fLo&code_challenge_method=S256");
